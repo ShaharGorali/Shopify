@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/red_yellow_black_abstract_wavy_lines_art_pattern_4k_hd_abstract.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Assistant", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  /* justify-content: center; */
+  /* padding: 10px; */
+  /* margin-top: 15px; */
+  border-bottom: 5px solid #f8c4b4;
+  background-color: #e97777;
+}
+.home {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-family: "Rubik Bubbles", cursive;
+}
+#shopify {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+#coloricon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.sec {
+  width: 100%;
+  height: 4%;
+  background-color: #f8c4b4;
+  border: #e97777;
+}
+.hbuttons {
+  display: flex;
+  height: 20px;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.hbuttons button:hover,
+.hbuttons select:hover {
+  font-size: large;
+}
+.hbuttons > * {
+  background-color: transparent;
+  font-family: "Rubik Bubbles", cursive;
+  border: none;
+}
+.hbuttons button {
+  width: 120px;
+}
+.main {
+  width: 100%;
+  height: 76%;
+  background-color: #f2deba;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr 0.3fr;
+}
+#woman {
+  display: flex;
+  align-items: center;
+  background-color: #0e3840;
+  justify-content: center;
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 40px;
+  background-color: #f8c4b4;
+  border-left: none;
+  border-top: none;
+}
+.choose {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Rubik Bubbles", cursive;
+}
+
+#sale {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 4vh;
+  border-right: 5px solid black;
+  background-color: #f8c4b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik Bubbles", cursive;
+}
+.bolden {
+  font-size: 60px;
+  font-family: "Rubik Bubbles", cursive;
+}
+#jeans {
+  height: 100px;
+}
+#jeans:hover {
+  height: 150px;
+}
+.jeans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#shirt {
+  height: 100px;
+}
+#shirt:hover {
+  height: 150px;
+}
+.shirt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#shoes {
+  height: 100px;
+}
+#shoes:hover {
+  height: 150px;
+}
+.shoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ShirtInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+}
+.PantsInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+}
+.ShoesInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Permanent Marker", cursive;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: #ffefd6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactlogos {
+  display: flex;
+  align-items: center;
+}
+
+#whatsapp {
+  height: 5vh;
+  margin-left: 10px;
+}
+#mail {
+  height: 5vh;
+  margin-left: 10px;
+}
+.fbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+#ContactUs {
+  margin-right: 10px;
+  background: #ffefd6;
+  font-family: "Rubik Bubbles", cursive;
+  justify-content: center;
+}
+.fbuttons > button:hover {
+  color: #f8c4b4;
+  font-size: large;
+}

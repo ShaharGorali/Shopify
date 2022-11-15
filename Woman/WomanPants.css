@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/red_yellow_black_abstract_wavy_lines_art_pattern_4k_hd_abstract.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Assistant", sans-serif;
+}
+.header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  /* justify-content: center; */
+  /* padding: 10px; */
+  /* margin-top: 15px; */
+  border-bottom: 5px solid #f8c4b4;
+  background-color: #e97777;
+}
+.home {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-family: "Rubik Bubbles", cursive;
+}
+#shopify {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+#coloricon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.sec {
+  width: 100%;
+  height: 4%;
+  background-color: #f8c4b4;
+}
+.hbuttons {
+  display: flex;
+  height: 20px;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.hbuttons button:hover,
+.hbuttons select:hover {
+  font-size: large;
+}
+.hbuttons > * {
+  background-color: transparent;
+  font-family: "Rubik Bubbles", cursive;
+  border: none;
+}
+.hbuttons button{
+  width: 120px;
+}
+.main {
+  width: 100%;
+  height: 76%;
+  background-color: #f2deba;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 1fr;
+}
+#woman {
+  display: flex;
+  align-items: center;
+  background-color: #0e3840;
+  justify-content: center;
+  font-family: "Rubik Bubbles", cursive;
+  font-size: 40px;
+  background-color: #f8c4b4;
+  border-left: none;
+  border-top: none;
+  text-decoration: none;
+  color: black;
+}
+.head {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-family: "Rubik Bubbles", cursive;
+}
+.PantsName {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: assistant;
+  font-size: 20px;
+}
+.PantsImg {
+  height: 220px;
+  border-radius: 30%;
+  padding-left: 100P;
+}
+.PantsInfo {
+  max-width: 200px;
+  text-align: center;
+}
+h5 {
+  font-size: larger;
+  text-align: center;
+  max-width: 200px;
+}
+.price {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #0e3840;
+  margin-top: 15px;
+}
+.footer {
+  width: 100%;
+  height: 10%;
+  background-color: #ffefd6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactlogos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#whatsapp {
+  height: 5vh;
+  margin-left: 10px;
+}
+#mail {
+  height: 5vh;
+  margin-left: 10px;
+}
+.fbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 10px;
+  background: #ffefd6;
+  font-family: "Rubik Bubbles", cursive;
+}
+.fbuttons > button:hover {
+  color: #0e5e6f;
+  font-size: large;
+}
